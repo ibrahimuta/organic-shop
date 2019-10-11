@@ -15,13 +15,27 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { UsernameComponent } from './username/username.component';
 import { environment } from '../environments/environment';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { OrderSuccessComponent } from './order-success/order-success.component';
+import { MyOrderComponent } from './my-order/my-order.component';
+import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
+import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShoppingCartComponent,
     UsernameComponent,
-    BsNavbarComponent
+    BsNavbarComponent,
+    HomeComponent,
+    ProductsComponent,
+    CheckoutComponent,
+    OrderSuccessComponent,
+    MyOrderComponent,
+    AdminProductsComponent,
+    AdminOrdersComponent
   ],
   imports: [
     BrowserModule,
