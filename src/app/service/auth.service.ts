@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  user$: Observable<any> = null;
+  user$: Observable<any>;
 
   constructor() { }
 
