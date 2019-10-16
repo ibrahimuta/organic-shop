@@ -16,4 +16,8 @@ export class UserService {
         email: user.email
       });
   }
+
+  get(uid: string) {
+    return firebase.database().ref('/users/' + uid).once('value');
+  }
 }
